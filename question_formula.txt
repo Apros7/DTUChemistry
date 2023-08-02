@@ -1,0 +1,35 @@
+Hvad er den korrekte masseprocent af (atom) i (molekyle)?
+1. Tæl antallet af de forskellige atomer
+2. Gang hvert atom med deres respektive molarmasser
+3. Find forholdet
+
+## code ##
+print(masseprocent_af_atom_i_stof([13, 2, 18], [12, 16, 1.01], 1))
+##
+
+------------------------------------------------------------
+
+Hvor mange (atomer) i (tal) gram (stof)?
+
+## code ##
+molarmasse_stof = 1 * 107.882 + 1 * 14 + 3 * 16
+antal_af_stof = 1
+tal = 10 
+print(antal_atomer_i_stof(molarmasse_stof, antal_af_stof, tal))
+## 
+
+------------------------------------------------------------
+
+Hvor meget (stof) dannes af reaktionen?
+1. Konverter til mol ved molarmasse / masse
+2. Husk forhold mellem atomer og stoffer
+3. Find den begrænsede mængde - dette er nu stoffets mol antal
+4. Konverter tilbage til gram ved molar * molarmasse
+
+------------------------------------------------------------
+
+Løs redox:
+1. Afstem i forhold til elektronforhold
+2. Afstem i forhold til atomer i hovedstof
+3. Afstem i forhold til samlede ladning på begge sider
+4. Tjek O

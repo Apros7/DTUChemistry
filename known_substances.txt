@@ -1,0 +1,12 @@
+SO4, sulfat
+SO3, sulfit
+CO3, carbonat
+CrO4, kromat
+S, svovl
+HCI, saltsyre
+HNO3, salpetersyre
+H2SO4, svovlsyre
+H3PO4, fosforsyre
+CH3COOH, eddikesyre
+NaOH, natriumhydroxid
+KOH, kaliumhydroxid
