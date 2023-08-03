@@ -52,7 +52,7 @@ ag_stofmængde = 1 * 0.1
 AgCl_stofmængde = cl_stofmængde
 AgCl_molarmasse = cl_molarmasse + ag_molarmasse
 AgCl_mass = AgCl_molarmasse * AgCl_stofmængde
-print(AgCl_mass) # g
+# print(AgCl_mass) # g
 
 ## BEREGNINGER ##
 N_vægt = 6
@@ -63,7 +63,7 @@ N_stofmængde = find_stofmængde(N_molarmasse, N_vægt)
 H_stofmængde = find_stofmængde(H_molarmasse, brint_vægt)
 am_mol = 2*H_stofmængde/3
 am_molarmasse = 14 + 3*1
-print(am_mol*am_molarmasse)
+# print(am_mol*am_molarmasse)
 
 # BEREGNINGER ##
 liter_oktan = 15000/14 # liter
@@ -74,12 +74,76 @@ oktan_mol = find_stofmængde(oktan_molarmasse, oktan_kg)
 co2_mol = 8*oktan_mol
 co2_molarmasse = 12.011 + 2 * 15.999
 co2_kg = co2_mol * co2_molarmasse
-print(co2_kg)
+#print(co2_kg)
 
 ## BEREGNINGER ##
-print(find_stofmængde(14 + 3, 10))
-print(find_stofmængde(32, 20))
+# print(find_stofmængde(14 + 3, 10))
+# print(find_stofmængde(32, 20))
 
 mass = find_stofmængde(14 + 3, 10)
 molarmasse = 14 + 16
-print(mass*molarmasse)
+# print(mass*molarmasse)
+
+############
+## GASSER ##
+############
+
+# Find Volumen
+V = 10 * 0.0821 * (20 + 273.15) / 1
+#print(f"{V = }")
+
+# Find stofmængde:
+grader_celcius = 25
+p = 1 # atm
+R = 0.081
+V = 4 # L
+T = (grader_celcius + 273.15) # K
+n = p * V / (R * T)
+print(f"{n = }")
+
+# Find tryk
+mol_co2 = find_stofmængde(32 + 12, 10) + n
+grader_celcius = 25
+volumen_liter = 1/2
+p = mol_co2 * 0.0821 * (grader_celcius + 273.15) / volumen_liter
+#print(f"{p = }")
+
+# Find temp
+V = 10000 # L
+R = 0.0821 # L * mol-1 * bar * K-1
+n = find_stofmængde(12 + 4, 1000000) # mol
+p = 200 # atm
+T = p * V / (n * R)
+print(f"{T = } K")
+T -= 273.15
+print(f"{T = } C")
+
+# Find molbrøker
+Pi = 0.28
+Ptotal = 0.28 + 0.4 + 0.11
+molbrøk = Pi / Ptotal
+# print(f"{molbrøk = }")
+
+
+##############
+## FORMULAS ##
+##############
+
+# IDEALGASLOVEN
+# p * V = n * R * T
+# R = 0.0821 L amt/(K mol)        # Brug ved ATM
+# eller R = 8.314 J/(mol * K)     # Brug ved bar
+
+# Kan omskrives til: M = rho*R*T/p
+# Kan bruges til at finde molær (g/mol) for en ukendt gas i kendt rum. Rho skal være g/L
+
+# Ikke- IDEALGAS
+# Van der Waals Ligning:
+# (p + an^2 / V^2) (V - nb) = nRT
+# a and b can be found in book
+
+# Daltons lov
+# Pt = P1 + P2
+# Det totale tryk er summen af de individuelle partialtryk
+# Pi = Xi * Pt
+# Partialtrykket kan udregnes ud fra totaltrykket og molfraktionen

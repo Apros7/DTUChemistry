@@ -33,3 +33,9 @@ Løs redox:
 2. Afstem i forhold til atomer i hovedstof
 3. Afstem i forhold til samlede ladning på begge sider
 4. Tjek O
+
+------------------------------------------------------------
+Hvor mange liter gas udvikles ved ligningen?
+1. Brug følgende formel: V = nRT/p.
+2. n er antallet af mol til forskel på højre side modsat venstre
+3. R er en konstant, T er givet (skal dog omregnes til K (+273.15, hvis C til K)) og p er givet.
