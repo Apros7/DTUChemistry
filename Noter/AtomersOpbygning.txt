@@ -1,0 +1,14 @@
+Lysets hastighed: c = lambda (bølgelængde, m) * v (frekvens, hz)
+Lysets hastighed c = 3 * 10**8 m/s
+Energien E = h * v
+Planks konstant h = 6.63 * 10**(-34) J*s = 4.13 * 10**(-15) eV*s
+
+To elektroner i samme atom kan ikke have samme 4 kvatetal:
+hovedkvatal, n = skaller
+bikvatetal, l = s, p, d, f-orbitaler
+magnetisk kvantetal, m = "retningen af orbitalerne"
+spin, s = +- 1/2
+
+Man er altid interesseret i det højeste mulige spin
+Spins i ufyldte underskaller vil være parallelle
+Opløftningen viser antallet af atomer i orbitalen.
