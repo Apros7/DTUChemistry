@@ -1,0 +1,30 @@
+Termodynamikkens 1. hovedsætning
+Ændringen i indre energy er varme + arbejde:
+DeltaU = q - P * DeltaV
+
+Exoterm: Udgives varme fra systemet
+Endoterm: Optages varme til systemet
+Enthalpi:
+DeltaH = DeltaU + p*DeltaV
+Ved konstant tryk: DeltaH = q
+
+Udregn reaktionsentalpier deltaH
+DeltaH = Sum(n*DeltaH(produkter)) - Sum(m*DeltaH(reaktanter))
+Find værdier i appendix 2
+
+Udregn entropiændring ved samme formel bare brug S (J/K * mol)
+
+Gibbs frie energy: DeltaG = DeltaH - T*DeltaS
+Den relevante energi der tilføres eller frigøres i kemiske reaktioner
+DeltaG < 0 : Reaktionen er spontan
+DeltaG > 0 : Reaktionen er spontan i den modsatte retning
+DeltaG = 0 : Reaktionen er ved ligevægt
+
+Reaktionskvotienten Q = [C]^c*[D]^d / [A]^a*[B]^b
+Den frie gibbs energi er så: DeltaGr = DeltaG0 + RT ln(Q)
+
+Ligevægtskonstnten K = [C]^c*[D]^d / [A]^a*[B]^b
+Reaktionen skal være ved ligevægt
+Gibbs energi er: DeltaG0 = -RT ln(K)
+DeltaGr = DeltaG0 + RT ln(Q)
+Fortegnet på DeltaGr fortæller retningen af den spontane reaktion.

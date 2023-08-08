@@ -148,12 +148,3 @@ molbrøk = Pi / Ptotal
 # Pi = Xi * Pt
 # Partialtrykket kan udregnes ud fra totaltrykket og molfraktionen
 
-# Termodynamikkens 1. hovedsætning
-# Ændringen i indre energy er varme + arbejde:
-# DeltaU = q - P * DeltaV
-
-## Exoterm: Udgives varme fra systemet
-## Endoterm: Optages varme til systemet
-## Enthalpi:
-# DeltaH = DeltaU + p*DeltaV
-# Ved konstant tryk: DeltaH = q
