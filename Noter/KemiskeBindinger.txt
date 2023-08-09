@@ -1,0 +1,4 @@
+Den elektromagnestiske kraft:
+E = (Q1 * Q2) / (4 * Pi * Epsilon * r_12)
+
+Se papir for mere info
