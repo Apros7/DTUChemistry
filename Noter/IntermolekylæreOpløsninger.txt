@@ -1,0 +1,35 @@
+intermolekylære bindinger er mellem molekyler
+intramolekylære bindinger er mellem atomer i et molekyle
+
+Eksempler:
+- HBr: Mellem HBr molekyler eksisterer dipol-dipol bindinger
+- NaCl i H2O: ion-dipol mellem Na / Cl og H2O
+- Ar: Mellem to Ar-atomer er dispersion (london)
+
+Ved 0 °C er HCl, HBr og HI alle gasser, mens HF er flydende.  Hvilken interaktion gør at HF molekyler er stærkere bundet i væskefasen end de andre hydrogenhalider?
+- Hydrogenbindinger. O, N og F er de grundstoffer der er i stand til at lave hydrogenbindinger.
+
+Størrelsesorden af intermolekylære kræfter:
+
+ion-ion : 100
+ion-dipol 20-30
+dipol-dipol : 5-15
+dipol - induceret dipol : 2-10
+dispersion : 1-20
+hydrogenbindinger : 10-25 (sker oftests med grundstofferner i 2. periode i det periodiske system)
+
+Solvent: Opløsningsmiddel: Vand
+Solut: Det, som opløses : Salt
+
+Formler:
+Damptrykssænkning: P1 = X1P10
+Kogepunktsforhøjelse: DeltaTb = Kb*m
+Frysepunktssækning: DeltaTf = Kf*m
+Osmotisk tryk (pi): pi = M*R*T
+
+X1 = molbørk af opløsningsmiddel
+P1 = damptryk for opløsning
+P10 = damptryk for ren opløsning (uden solut)
+m = molalitet af opløst stof (mol_solut/kg_opløsningsmiddel)
+M = molaritet af opløst stof (kaldes også c, koncentrationen) (mol/L_samlet_opløsning)
+Kb og Kf er opløsningskonstanter
