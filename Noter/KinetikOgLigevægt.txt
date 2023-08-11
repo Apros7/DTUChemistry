@@ -1,0 +1,37 @@
+For at en kemisk reaktion foregår spontant, skal gibbs frie energi være negativt.
+
+reaktionshastigheden varierer med tiden:
+r = k [A]^x [B]^y
+r: reaktionsrate
+k: haatighedskonstanten
+[A] og [B]: 
+X + Y: reaktionsorden (typisk 1)
+
+Halveringstiden for 1.ordens reaktioner er: t_1/2 = ln(2) / k
+Ligning for sammenhæng mellem koncentration og tid ved førsteorden er givet ved:
+ln ([A]_t / [A]_0) = -kt
+
+2. ordens reaktion: 2 reaktanter skal mødes for at danne produkt
+r = k[A]^2
+For andenordensreaktioner vil x = 2, aldrig x = y = 1
+for andenordens: 1/A_t = k*t + 1/A_0
+
+Reaktionshastigheden stiger med temperaturen.
+k = A * exp(-E_a / (R*T))
+Ea = aktiveringsenergien (J/mol)
+R = gaskonstant (8.314 J/K*mol)
+T = Absolut temperatur (K)
+A = frekvensfaktoren (s-1)
+
+Ligevægtskonstanten K:
+aA + bB <-> cC + dD
+K = (C^c*D^d) / (A^a*B^b)
+
+K << 1: forløber mod venstre, ikke særlig meget produkt
+K = 1: begge sider forekommer i lige store koncentrationer
+K >> 1: forløber mod højre, ikke særlig mange reaktanter
+
+Opløselighedsligevægt, K_sp (for salte)
+Ksp = [cation] * [anion]
+
+For gasser er koncentrationen = partialtrykket
