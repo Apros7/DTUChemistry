@@ -1,0 +1,50 @@
+Syre: Afgiver protoner
+Base: Optager protoner
+
+Vand kan optræde som både base og syre:
+H2O er korresponderende base til H3O+
+H2O er korresponderende syre til OH-
+
+pH = -log[H+] = -log[H3O+]
+pH = 7: [H+] = [OH-], [H+] = 1 * 10**(-7): Neutral
+pH < 7: [H+] > [OH-], [H+] > 1 * 10**(-7): Sur
+pH > 7: [H+] < [OH-], [H+] < 1 * 10**(-7): Basisk
+
+pOH = -log[OH-]
+
+[H+] = 10-pH
+[OH-] = 10-pOH
+
+Stærke syrer: 100% reaktion mod højre
+(Saltsyre, salpetersyre, svovlsyre)
+
+Stærke baser: 100% reaktion mod højre
+(Natrium, kaliumhydroxid)
+
+Kw = [H3O+][OH-] = 10**-14
+Til udregning skal bruges math.log10
+
+Svage syrer: Dissocierer ikke fuldstændigt i vand
+(Flyssyre, salpetersyrling, vand, eddikesyre, citronsyre, æblesyre)
+Hvis syren kaldes HA, den korresponderende base kaldes A- og protonen kaldes H+, så:
+Ka = [H+]*[A] / [HA]
+Jo højere syrekonstant, jo lavere pH
+pKa = -log(Ka)
+Ka = 10**(-pKa)
+
+Dette fungere på præcis samme måde for svage baser: Denne kaldes Kb.
+Ka * Kb = Kw = 10**-14
+pKa + pKb = 14
+
+Beregning af pH i puffer opløsning:
+pH = pKa + log([A-]/[HA])
+
+Opløselighed:
+Opløselighedsprodukt = Ligevægtskonstanten
+Ksp = [cation]**x * [anion]**y
+
+Mættethed:
+Ksp = 1.6 * 10-10 (for AgCl)
+Q < Ksp: Umættet
+Q = Ksp: Mættet
+Q > Ksp: Overmættet

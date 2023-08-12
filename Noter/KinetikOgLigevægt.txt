@@ -26,6 +26,7 @@ A = frekvensfaktoren (s-1)
 Ligevægtskonstanten K:
 aA + bB <-> cC + dD
 K = (C^c*D^d) / (A^a*B^b)
+Koncentrationen af væsker og faste stoffer sættes normalt til 1
 
 K << 1: forløber mod venstre, ikke særlig meget produkt
 K = 1: begge sider forekommer i lige store koncentrationer
