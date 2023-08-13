@@ -1,0 +1,45 @@
+Spændingsrækken:
+Angiver, hvor villigt et metal afgiver elektroner og ioniseres
+Reaktive metaller øverst (vil helst afgive elektroner), ædle (ikke-reaktive) metaller nederst
+Hvis et mindre ædelt metal kommer i kontakt med en opløsning af ædelt metal, vil der ske en udskiftning.
+Hvis Zn kommer I en opløsning af Cu, så vil det afgive elektroner til Cu, da Cu står lavere på spændingsrækken
+
+Standard Reduktionspotentialer:
+Jo højere på standardreduktionspotentialet, jo hellere vil det optage elektroner
+(jo mere vil reaktionen forløbe mod højre) - tabellen findes også i bogen.
+
+Hvis man ændrer størrelsen af en reaktioner (ganger alle fortegn med 2), så forbliver reduktionspotentialet det samme
+Hvis man ændrer retning, så ændres fortegnet også.
+
+Katode = Optager elektroner (Reduction)
+Anode = Afgiver elektroner (Oxidation)
+Ud af 2 reaktioner, så vil den med mindst reduktionspotentiale være anode.
+
+Find volt (spænding) for system:
+E_celle = E_katode - E_anode
+
+Cellediagrammer:
+Eksempel: Zn + Cu2+ -> Zn2+ + Cu
+Cellediagram: Zn | Zn2+ || Cu2+ | Cu
+| = Fasegrænse, || = Saltbro
+Oxidation (anode) skrives til venstre.
+
+Cellespænding og Gibbs-energi
+DeltaG = -n*F*E_cell og DeltaG0 = -n*F*E0_cell
+
+Cellespænding og ligevægtskonstant
+E0_cell = R*T/(n*F)*ln(K)
+Kan simplificeres til:
+E0_cell = (0.0257 V)/n * ln(K)
+
+Molantallet af elektroner der overføres kan findes ved at finde op og nedgange i oxidationstal og gange med molkvotienterne.
+
+Husk også for Gibbs:
+DeltaG = -R*T*ln(K)
+
+Nernst-ligning:
+Til brug ved ikke standard-betingelser
+E = E0 - R*T/(n*F) * ln(Q)
+
+Korrosion:
+Uønsket redoxreaktion (jern -> rust)
