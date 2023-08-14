@@ -1,0 +1,50 @@
+Organisk og uorganisk kemi: 
+- Organisk kemi indeholder kul-forbindelser (C-H)
+- Uorganisk kemi omfatter molekyler, der ikke findes i liv (mineraler, salte, metaller).
+
+Koordinationskemi:
+- Metalion: typisk overgangsmetaller
+- Ligand: de molekyler, der sidder bindet til metalionen vha. lone pairs
+
+Krystalfelt-teori:
+- Høj spin: svagfelt ligander, flest muligt uparrede elektroner
+- Lav spin: stærkfelt ligander, færrest muligt uparrede elektroner (typisk 0 eller 1)
+
+- En stor krystalfelopsplitning favoriserer lavspinskomplekser
+- En lille krystalfelopsplitning favoriserer højspinskomplekser
+
+- I tetraedrisk vil 3 være øverst
+- I oktaedrisk vil 3 være nederst
+
+Polymerkemi: (høj molarmasse)
+- Additions-reaktioner: Momoner (med dobbeltbiding) til polymer
+- Kondensationsreaktion: Carboxylsyre + amin = større molekyler + vand
+
+Biokemi:
+- Kende forskel på opbygning
+
+Kulhydrat: Glucose:
+- Monosaccharider (5-6 C-atomer), flere OH og én carboxyl
+- Disaccharid (C12H22O11): Sukrose
+
+Fedtsyrer: 
+- Carbonkæde + carboxylsyregruppe
+- Hvis dobbeltbinding så umættet, ellers mættet.
+- tri-glycerid = fedtstof
+
+Proteiner:
+- Aminosyrer, amin og carboxylsyregruppe
+- Bindes af peptidbindinger (C = O til N-H)
+
+Sekundær struktur:
+- Alpha-helix
+- Beta-foldeblad
+
+Kvartenær struktur: flere proteinkæder binder sig sammen
+
+Nukleobasser: A, C, G, T
+A <-> T
+C <-> G
+U erstatter T i RNA
+Kobles sammen af hydrogenbindinger
+DNA består af: Phosfor, deoxyribose-sukkeret , base
