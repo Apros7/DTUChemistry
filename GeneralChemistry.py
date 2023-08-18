@@ -148,3 +148,8 @@ molbrøk = Pi / Ptotal
 # Pi = Xi * Pt
 # Partialtrykket kan udregnes ud fra totaltrykket og molfraktionen
 
+# E = h*c/lambda
+# h = 6.626 * 10**(-34) # J*s
+# c = 3.00 * 10**8 #m/s
+
+
